@@ -33,12 +33,12 @@ As the docker system runs independent of your host system, we need to enable por
 First, download this repository with the command
 
 ```bash
-git clone https://github.com/yfletberliac/rlss2019-coding.git
+git clone https://github.com/yfletberliac/rlss2019-hands-on.git
 ```
 
 Then, run
 ```bash
-docker run -it -p 8888:8888 -v path/to/your/rlss2019-coding:/mnt/rlss2019-coding -d yfletberliac/rlss2019-docker
+docker run -it -p 8888:8888 -v path/to/your/rlss2019-hands-on:/mnt/rlss2019-hands-on -d yfletberliac/rlss2019-docker
 ```
 
 where `-it` is required for an interactive experience with the docker bash environment, `-p` is for port forwarding	and `-v` is for mounting your given folder to the docker container.
@@ -53,4 +53,4 @@ docker-machine ip
 
 This should give you an ip that you can replace with localhost.
 
-From within the notebook, click on `/mnt`, click on `rlss2019-coding`. You should find the materials for the practical sessions!
+From within the notebook, click on `/mnt`, click on `rlss2019-hands-on`. You should find the materials for the practical sessions !
