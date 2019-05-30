@@ -3,7 +3,7 @@
 ### Setup and Installation
 Guides for downloading and installing TensorFlow and PyTorch on Linux, MacOS and Windows using Docker can be found [here](installation.md).
 
-### Material
+### Materials (WIP)
 #### DeepRL
 - [DQN](DeepRL/01.DQN.ipynb)
 - [DoubleDQN](DeepRL/02.DoubleDQN.ipynb)
