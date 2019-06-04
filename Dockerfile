@@ -1,7 +1,5 @@
 FROM tensorflow/tensorflow:latest-py3
 
-LABEL maintainer="Yannis Flet-Berliac <yannis.flet-berliac@inria.fr>"
-
 ENV BUILD_PACKAGES="\
         git \
         wget \
