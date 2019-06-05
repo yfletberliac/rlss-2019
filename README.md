@@ -1,7 +1,7 @@
 # [RLSS 2019] Pratical Sessions
 
 ### Setup and Installation
-Guides for downloading and installing TensorFlow and PyTorch on Linux, MacOS and Windows using Docker can be found [here](setup.md).
+Guides for downloading and installing PyTorch and all needed packages on Linux, MacOS and Windows using Docker can be found [here](setup.md).
 
 ### Materials (WIP)
 #### Deep Reinforcement Learning
