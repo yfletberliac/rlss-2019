@@ -5,13 +5,15 @@ ENV BUILD_PACKAGES="\
         wget \
         curl" \
     PIP_PACKAGES="\
-        h5py \
+#        h5py \
         numpy \
         pandas \
-        scipy \
+#        scipy \
         seaborn \
         matplotlib \
-        gym \
+#        gym \
+        gym[atari] \
+        opencv-python \
         https://download.pytorch.org/whl/cpu/torch-1.1.0-cp35-cp35m-linux_x86_64.whl \
         https://download.pytorch.org/whl/cpu/torchvision-0.3.0-cp35-cp35m-linux_x86_64.whl" \
     JUPYTER_CONFIG_DIR=/home/.ipython/profile_default/startup \
@@ -21,6 +23,8 @@ RUN set -ex; \
     apt-get update -y; \
     apt-get upgrade -y; \
     apt-get install -y --no-install-recommends ${BUILD_PACKAGES}; \
+    apt-get update -y; \
+    apt-get install -y libgtk2.0-dev; \
     pip install -U -V pip; \
     pip install -U -v setuptools wheel; \
     pip install -U -v ${PIP_PACKAGES}; \
