@@ -14,6 +14,7 @@ ENV BUILD_PACKAGES="\
 #        gym \
         gym[atari] \
         git+https://github.com/eleurent/highway-env \
+        tqdm \
         opencv-python \
         https://download.pytorch.org/whl/cpu/torch-1.1.0-cp35-cp35m-linux_x86_64.whl \
         https://download.pytorch.org/whl/cpu/torchvision-0.3.0-cp35-cp35m-linux_x86_64.whl" \
