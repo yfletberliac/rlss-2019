@@ -47,7 +47,7 @@ docker-machine ip
 
 This should give you an ip that you can replace with localhost.
 
-### 4. Mounting the RLSS workspace directory
+### 4. Mounting the RLSS2019 workspace directory
 
 Likewise, we need to give the docker instance access to our workspace directory.
 First, download this repository with the command
