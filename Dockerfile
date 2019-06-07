@@ -5,13 +5,10 @@ ENV BUILD_PACKAGES="\
         wget \
         curl" \
     PIP_PACKAGES="\
-#        h5py \
         numpy \
         pandas \
-#        scipy \
         seaborn \
         matplotlib \
-#        gym \
         gym[atari] \
         git+https://github.com/eleurent/highway-env \
         tqdm \
