@@ -9,6 +9,8 @@ ENV BUILD_PACKAGES="\
         pandas \
         seaborn \
         matplotlib \
+        pyvirtualdisplay \
+        piglet \
         gym[atari] \
         git+https://github.com/eleurent/highway-env \
         tqdm \
@@ -23,7 +25,7 @@ RUN set -ex; \
     apt-get upgrade -y; \
     apt-get install -y --no-install-recommends ${BUILD_PACKAGES}; \
     apt-get update -y; \
-    apt-get install -y libgtk2.0-dev; \
+    apt-get install -y libgtk2.0-dev xvfb python-opengl ffmpeg; \
     pip install -U -V pip; \
     pip install -U -v setuptools wheel; \
     pip install -U -v ${PIP_PACKAGES}; \
