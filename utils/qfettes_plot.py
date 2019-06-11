@@ -234,7 +234,7 @@ def plot_all_data(folder, game, name, num_steps, bin_size=(10, 100, 100, 1), smo
     ticks = tick_fractions * num_steps
     tick_names = ["{:.0e}".format(tick) for tick in ticks]
 
-    fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(20, 15),
+    fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(18, 14),
                                         subplot_kw=dict(xticks=ticks, xlim=(0, num_steps * 1.15), xlabel='Timestep',
                                                         title=title))
     ax1.set_xticklabels(tick_names)
