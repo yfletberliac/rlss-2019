@@ -7,9 +7,9 @@ Guides for downloading and installing PyTorch and all needed packages on Linux, 
 
 ## Materials
 ### Deep Reinforcement Learning
-- [REINFORCE+A2C](labs/01.REINFORCE+A2C.ipynb)
-- [DQN](labs/02.DQN.ipynb)
-- [Model-Based](labs/03.ModelBased.ipynb)
+- [REINFORCE+A2C](labs/01.REINFORCE+A2C.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/01.REINFORCE%2BA2C.ipynb)
+- [DQN](labs/02.DQN.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/02.DQN.ipynb)
+- [Model-Based](labs/03.ModelBased.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/03.ModelBased.ipynb)
 
 -------
 #### Misc.
