@@ -1,9 +1,9 @@
 # [RLSS 2019] Pratical Sessions
 
 ## Setup and Installation
-Guides for downloading and installing PyTorch and all needed packages on Linux, MacOS and Windows using Docker can be found [here](setup.md).
+*NB*: You won't need the Docker `rlss2019-docker` image if you run the notebooks from Google Colab :orange_book: (Google Colab has it's own VM so you will just need to install the needed packages from inside the notebooks). If you want to run the notebooks locally and not on Colab, use the `rlss2019-docker` image (link below).
 
-*Note*: You won't need the `rlss2019-docker` image if you run the notebooks from Google Colab :orange_book: (Google Colab has it's own VM so you will just need to install the needed packages from inside the notebooks). Use the `rlss2019-docker` image only if you want to run the notebooks locally.
+Find [here](setup.md) the instructions for using the `rlss2019-docker` image on Linux, MacOS or Windows.
 
 ## Materials
 ### Deep Reinforcement Learning
@@ -14,3 +14,4 @@ Guides for downloading and installing PyTorch and all needed packages on Linux, 
 -------
 #### Misc.
 You are running Windows and want to install a Virtual Machine running Ubuntu 18.04? [Here](ubuntu-virtual-box.md) is a tutorial.
+You may also want to directly [install](https://tutorials.ubuntu.com/tutorial/tutorial-ubuntu-on-windows#0) the Ubuntu terminal on Windows 10.
