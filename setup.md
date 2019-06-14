@@ -55,7 +55,7 @@ First, download this repository with the command
 ```bash
 git clone https://github.com/yfletberliac/rlss2019-hands-on.git
 ```
-We can use the `-v` optino for mounting the folder to the docker container.
+We can use the `-v` option for mounting the folder to the docker container.
 ```bash
 docker run -it -p 8888:8888 -v path/to/your/rlss2019-hands-on:/mnt/rlss2019-hands-on -d yfletberliac/rlss2019-docker
 ```
