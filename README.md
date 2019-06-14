@@ -1,9 +1,14 @@
 # [RLSS 2019] Pratical Sessions
 
 ## Setup and Installation
-*NB*: You won't need the Docker `rlss2019-docker` image if you run the notebooks from Google Colab :orange_book: (Google Colab has it's own VM so you will just need to install the needed packages from inside the notebooks). If you want to run the notebooks locally and not on Colab, use the `rlss2019-docker` image (link below).
+Two choices are available to you:
+- running the notebooks on [Google Colab](https://colab.research.google.com) :orange_book: if you want to take advantage of the GPU acceleration it offers;
+- running the notebooks elsewhere (locally or on a server).
 
-Find [here](setup.md) the instructions for using the `rlss2019-docker` image on Linux, MacOS or Windows.
+##### Google Colab
+It has it's own VM so you only have to install the necessary packages from inside the notebooks.
+##### Elsewhere
+You can use the `rlss2019-docker` image. [Here](setup.md) you'll find  the instructions for installing and running the `rlss2019-docker` image on Linux, MacOS or Windows.
 
 ## Materials
 ### Deep Reinforcement Learning
@@ -12,6 +17,6 @@ Find [here](setup.md) the instructions for using the `rlss2019-docker` image on 
 - [Model-Based](labs/03.ModelBased.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/03.ModelBased.ipynb)
 
 -------
-#### Misc.
+#### Misc./Known issues
 You are running Windows and want to install a Virtual Machine running Ubuntu 18.04? [Here](ubuntu-virtual-box.md) is a tutorial.
 You may also want to directly [install](https://tutorials.ubuntu.com/tutorial/tutorial-ubuntu-on-windows#0) the Ubuntu terminal on Windows 10.
