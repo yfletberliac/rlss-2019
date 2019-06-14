@@ -3,7 +3,7 @@
 ## Setup and Installation
 Guides for downloading and installing PyTorch and all needed packages on Linux, MacOS and Windows using Docker can be found [here](setup.md).
 
-*Note*: You won't need the `rlss2019-docker` image if you run the notebooks from Google Colab (Google Colab has it's own VM so you will just need to install the needed packages from inside the notebooks). Use the `rlss2019-docker` image only if you want to run the notebooks locally.
+*Note*: You won't need the `rlss2019-docker` image if you run the notebooks from Google Colab :orange_book: (Google Colab has it's own VM so you will just need to install the needed packages from inside the notebooks). Use the `rlss2019-docker` image only if you want to run the notebooks locally.
 
 ## Materials
 ### Deep Reinforcement Learning
