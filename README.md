@@ -1,4 +1,4 @@
-# [RLSS 2019] Pratical Sessions
+# RLSS 2019: Pratical Sessions
 
 ## Setup and Installation
 Two choices are available to you:
@@ -16,7 +16,17 @@ You can use the `rlss2019-docker` image. [Here](setup.md) you'll find  the instr
 - [DQN](labs/02.DQN.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/02.DQN.ipynb)
 - [Model-Based](labs/03.ModelBased.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/03.ModelBased.ipynb)
 
--------
-#### Misc./Known issues
+
+
+
+
+--------
+### Misc./Known issues
 You are running Windows and want to install a Virtual Machine running Ubuntu 18.04? [Here](ubuntu-virtual-box.md) is a tutorial.
 You may also want to directly [install](https://tutorials.ubuntu.com/tutorial/tutorial-ubuntu-on-windows#0) the Ubuntu terminal on Windows 10.
+
+
+### Contributors
+- [@eleurent](https://github.com/eleurent)
+- [@geoffreycid](https://github.com/geoffreycid)
+- [@raphaelavalos](https://github.com/raphaelavalos)
