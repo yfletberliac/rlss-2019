@@ -4,13 +4,13 @@ This tutorial will guide installation of a *dockerization* of TensorFlow, PyTorc
 
 # Docker
 
-In this tutorial we will use [docker](https://www.docker.com/) containers to handle dependencies and run our code.
+In this tutorial we will use Docker containers to handle dependencies and run our code.
 Docker is a container which allows us to run our code in an encapsulated container.
 The language of choice will be python3.
 
-## 1. Installation of docker (all operating systems)
+## 1. Installation of Docker CE (all operating systems)
 
-Instructions for installing docker can be found [here](https://docs.docker.com/engine/installation/#installation), the instructions contains guides for most operating systems.
+Instructions for installing Docker CE can be found [here](https://docs.docker.com/engine/installation/#installation), the instructions contains guides for most operating systems.
 
 NOTE: on Windows, *Docker Desktop for Windows* is only available for Windows 10 Pro, Enterprise or Education. For the Home edition or previous versions, use [Docker Toolbox](https://docs.docker.com/toolbox/overview/) instead.
 
@@ -18,7 +18,7 @@ NOTE: on Windows, *Docker Desktop for Windows* is only available for Windows 10 
 
 After installing docker you are ready to go! The docker image that you will use for this tutorial is an extension of TensorFlow docker image (with PyTorch, TensorFlow, Jupyter Notebook, numpy, pandas, wget, etc.).
 
-To run the docker, type
+To run the [docker image](https://hub.docker.com/r/yfletberliac/rlss2019-docker), type
 
 ```bash
 docker run -it yfletberliac/rlss2019-docker
