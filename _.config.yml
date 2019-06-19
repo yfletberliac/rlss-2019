@@ -1,10 +1,9 @@
 plugins:
   - jekyll-relative-links
 relative_links:
-  enabled: false
+  enabled: true
   collections: true
-exclude:
-  - README.md
+title: RLSS 2019 Setup
 include:
   - setup.md
   - ubuntu-virtual-box.md
