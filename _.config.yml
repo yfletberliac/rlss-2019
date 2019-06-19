@@ -3,7 +3,6 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-title: RLSS 2019 Setup
 include:
   - setup.md
   - ubuntu-virtual-box.md
