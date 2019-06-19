@@ -8,11 +8,11 @@ In this tutorial we will use Docker containers to handle dependencies and run ou
 Docker is a container which allows us to run our code in an encapsulated container.
 The language of choice will be python3.
 
-## 1. Installation of Docker CE (all operating systems)
+## 1. Installation of Docker (all operating systems)
 
-Instructions for installing Docker CE can be found [here](https://docs.docker.com/engine/installation/#installation), the instructions contains guides for most operating systems.
+Instructions for installing Docker can be found [here](https://docs.docker.com/engine/installation/#installation), the instructions contain guides for most operating systems.
 
-NOTE: on Windows, *Docker Desktop for Windows* is only available for Windows 10 Pro, Enterprise or Education. For the Home edition or previous versions, use [Docker Toolbox](https://docs.docker.com/toolbox/overview/) instead.
+NB: on Windows, *Docker Desktop for Windows* is only available for Windows 10 Pro, Enterprise or Education. For the Home edition or previous versions, use [Docker Toolbox](https://docs.docker.com/toolbox/overview/) instead.
 
 ## 2. Using dockerhub
 
@@ -39,7 +39,7 @@ where `-it` is required for an interactive experience with the docker bash envir
 
 Now, open a new tab in your browser and type localhost:8888 in the browser address bar. Note that you cannot have any other notebooks running simultaneously.
 
-NOTE: on Windows, the port will probably not bind to localhost, instead you must find the port it binds to by typing the following in your docker prompt
+NB: on Windows, the port will probably not bind to localhost, instead you must find the port it binds to by typing the following in your docker prompt
 
 ```bash
 docker-machine ip
@@ -61,6 +61,6 @@ docker run -it -p 8888:8888 -v path/to/your/rlss2019-hands-on:/mnt/rlss2019-hand
 ```
 From within the notebook, click on `/mnt`, click on `rlss2019-hands-on`. You should find the materials for the practical sessions !
 
-NOTE: on Windows, Docker expects that your data volumes will be within `C:\Users`. This is because Docker has limited access to the filesystem on the host computer. This can be changed:
+NB: on Windows, Docker expects that your data volumes will be within `C:\Users`. This is because Docker has limited access to the filesystem on the host computer. This can be changed:
 * with Docker for Windows, go to Settings > Share drive
 * with Docker Toolbox, follow [this](https://stackoverflow.com/questions/33126271/how-to-use-volume-option-with-docker-toolbox-on-windows?answertab=votes#tab-top)
