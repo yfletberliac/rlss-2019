@@ -2,9 +2,9 @@ plugins:
   - jekyll-relative-links
 relative_links:
   enabled: true
-  collections: false
-  exclude:
-    - README.md
+  collections: true
+exclude:
+  - README.md
 include:
   - setup.md
   - ubuntu-virtual-box.md
