@@ -10,13 +10,16 @@ It has it's own VM so you only have to install the necessary packages from insid
 ##### Elsewhere
 You can use the `rlss2019-docker` image. [Here](setup.md) you'll find  the instructions for installing and running the `rlss2019-docker` image on Linux, MacOS or Windows.
 
-## Materials
+## Materials (WIP/not included yet)
+### Bandits
+
+### Reinforcement Learning
+
 ### Deep Reinforcement Learning
 - [REINFORCE+A2C](labs/01.REINFORCE+A2C.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/01.REINFORCE%2BA2C.ipynb)
 - [DQN](labs/02.DQN.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/02.DQN.ipynb)
 - [Model-Based](labs/03.ModelBased.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/03.ModelBased.ipynb)
-
-
+### Final Project
 
 
 
@@ -27,8 +30,4 @@ You may also want to directly [install](https://tutorials.ubuntu.com/tutorial/tu
 
 
 ### Contributors
-- [@eleurent](https://github.com/eleurent)
-- [@geoffreycid](https://github.com/geoffreycid)
-- [@raphaelavalos](https://github.com/raphaelavalos)
-- [@yfletberliac](https://github.com/yfletberliac)
-- more to come...
+- soon to be updated...
