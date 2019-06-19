@@ -1,3 +1,7 @@
+---
+title: RLSS 2019
+---
+
 # Download and Setup
 
 This tutorial will guide installation of a *dockerization* of TensorFlow, PyTorch and other useful libraries on Linux, MacOS and Windows.
