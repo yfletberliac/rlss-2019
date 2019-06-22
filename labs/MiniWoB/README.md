@@ -1,0 +1,14 @@
+Setup process:
+
+Install go development environment (required by universe)
+
+*Note*: python 3.7 won't work due to universe
+```
+docker pull shmuma/miniwob
+conda create -n miniwob python=3.6
+conda activate miniwob
+pip install gym
+pip install universe
+```
+
+`pip install universe` - this step will likely require more dependencies to be installed, like libjpeg-turbo, etc
