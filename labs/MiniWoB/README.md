@@ -2,7 +2,7 @@ Setup process:
 
 Install go development environment (required by universe)
 
-*Note*: python 3.7 won't work due to universe
+*Note*: python 3.7 won't work due to universe's usage of `async` keyword
 ```
 docker pull shmuma/miniwob
 conda create -n miniwob python=3.6
