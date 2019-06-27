@@ -1,5 +1,7 @@
 Setup process:
 
+Install docker, current user need to have rights to start container (for linux, belong to the `docker` group)
+
 Install go development environment (required by universe)
 
 *Note*: python 3.7 won't work due to universe's usage of `async` keyword
