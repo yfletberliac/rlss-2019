@@ -1,4 +1,5 @@
 import numpy as np
+import os
 from finite_env import FiniteEnv
 
 
@@ -84,10 +85,10 @@ class MDP(FiniteEnv):
         
         
 class FrozenLake(MDP):
-    def __init__(self, gamma=0.99, deterministic=False):
+    def __init__(self, gamma=0.99, deterministic=False, data_path="./data"):
         if deterministic:
-            P = np.load("frozen_lake_deterministic_transition.npy")
+            P = np.load(os.path.join(data_path, "frozen_lake_deterministic_transition.npy"))
         else:
-            P = np.load("frozen_lake_stochastic_transition.npy")
+            P = np.load(os.path.join(data_path, "frozen_lake_stochastic_transition.npy"))
         bad_states = [5, 7, 11, 12]
         super().__init__(P=P, bad_states=bad_states, gamma=gamma)
