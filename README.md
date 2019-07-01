@@ -10,7 +10,7 @@ It has it's own VM so you only have to install the necessary packages from insid
 ##### Elsewhere
 You can use the `rlss2019-docker` image. [Here](setup.md) you'll find  the instructions for installing and running the `rlss2019-docker` image on Linux, MacOS or Windows.
 
-## Materials (WIP/not included yet)
+## Materials
 
 ### Bandits
 
