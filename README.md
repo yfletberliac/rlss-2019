@@ -15,6 +15,7 @@ You can use the `rlss2019-docker` image. [Here](setup.md) you'll find  the instr
 ### Bandits
 
 - [Stochastic Bandits](labs/MAB.Bandits.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/MAB.Bandits.ipynb)
+- [Recommender Systems](labs/MAB.RecoSystems.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/MAB.RecoSystems.ipynb)
 
 ### Reinforcement Learning
 
