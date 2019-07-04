@@ -38,4 +38,13 @@ You may also want to directly [install](https://tutorials.ubuntu.com/tutorial/tu
 
 
 ### Contributors
-- soon to be updated...
+- Raphaël Avalos
+- Geoffrey Cideron
+- [Omar Darwiche Domingues](https://omardrwch.github.io/)
+- [Yannis Flet-Berliac](https://ynns.io/)
+- [Emilie Kaufmann](http://chercheurs.lille.inria.fr/ekaufman/)
+- [Max Lapan](https://medium.com/@shmuma)
+- [Edouard Leurent](http://www.edouardleurent.com/)
+- [Odalric-Ambrym Maillard](http://odalricambrymmaillard.neowordpress.fr/)
+- [Jérémie Mary](http://www.grappa.univ-lille3.fr/~mary/)
+- [Mathieu Seurin](https://sites.google.com/view/mathieu-seurin/)
