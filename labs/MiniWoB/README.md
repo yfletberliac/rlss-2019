@@ -1,3 +1,6 @@
+* [Standalone version of notebooks](standalone/)
+* [Colab version](colab/)
+
 Setup process:
 
 Install docker, current user need to have rights to start container (for linux, belong to the `docker` group)
