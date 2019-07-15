@@ -29,6 +29,9 @@ You can use the `rlss2019-docker` image. [Here](setup.md) you'll find  the instr
 
 ### Final Project
 
+- [Intro](labs/final_project/ptan_intro.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/final_project/ptan_intro.ipynb)
+- [TextWorld](labs/final_project/TextWorld.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/final_project/TextWorld.ipynb)
+- [MiniWoB](labs/final_project/MiniWoB)
 
 
 --------
