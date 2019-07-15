@@ -34,13 +34,12 @@ You can use the `rlss2019-docker` image. [Here](setup.md) you'll find  the instr
 - [MiniWoB](labs/final_project/MiniWoB)
 
 
---------
-### Misc./Known issues
+## Misc./Known issues
 You are running Windows and want to install a Virtual Machine running Ubuntu 18.04? [Here](ubuntu-virtual-box.md) is a tutorial.
 You may also want to directly [install](https://tutorials.ubuntu.com/tutorial/tutorial-ubuntu-on-windows#0) the Ubuntu terminal on Windows 10.
 
 
-### Contributors
+## Contributors
 - Raphaël Avalos
 - Geoffrey Cideron
 - [Omar Darwiche Domingues](https://omardrwch.github.io/)
