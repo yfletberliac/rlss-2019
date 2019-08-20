@@ -14,23 +14,23 @@ You can use the `rlss2019-docker` image. [Here](setup.md) you'll find  the instr
 
 ### Bandits
 
-- [Stochastic Bandits](labs/MAB.Bandits.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/MAB.Bandits.ipynb)
-- [Recommender Systems](labs/MAB.RecoSystems.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/MAB.RecoSystems.ipynb)
+- [Stochastic Bandits](labs/MAB.Bandits.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss-2019/blob/master/labs/MAB.Bandits.ipynb)
+- [Recommender Systems](labs/MAB.RecoSystems.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss-2019/blob/master/labs/MAB.RecoSystems.ipynb)
 
 ### Reinforcement Learning
 
-- [Dynamic Programming + QLearning + SARSA](labs/RL.DP+QLearning+SARSA.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/RL.DP%2BQLearning%2BSARSA.ipynb)
+- [Dynamic Programming + QLearning + SARSA](labs/RL.DP+QLearning+SARSA.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss-2019/blob/master/labs/RL.DP%2BQLearning%2BSARSA.ipynb)
 
 ### Deep Reinforcement Learning
 
-- [REINFORCE + A2C](labs/DRL.01.REINFORCE+A2C.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/DRL.01.REINFORCE%2BA2C.ipynb)
-- [DQN](labs/DRL.02.DQN.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/DRL.02.DQN.ipynb)
-- [Model-Based](labs/DRL.03.ModelBased.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/DRL.03.ModelBased.ipynb)
+- [REINFORCE + A2C](labs/DRL.01.REINFORCE+A2C.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss-2019/blob/master/labs/DRL.01.REINFORCE%2BA2C.ipynb)
+- [DQN](labs/DRL.02.DQN.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss-2019/blob/master/labs/DRL.02.DQN.ipynb)
+- [Model-Based](labs/DRL.03.ModelBased.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss-2019/blob/master/labs/DRL.03.ModelBased.ipynb)
 
 ### Final Project
 
-- [Intro](labs/final_project/ptan_intro.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/final_project/ptan_intro.ipynb)
-- [TextWorld](labs/final_project/TextWorld.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss2019-hands-on/blob/master/labs/final_project/TextWorld.ipynb)
+- [Intro](labs/final_project/ptan_intro.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss-2019/blob/master/labs/final_project/ptan_intro.ipynb)
+- [TextWorld](labs/final_project/TextWorld.ipynb) [:orange_book:](https://colab.research.google.com/github/yfletberliac/rlss-2019/blob/master/labs/final_project/TextWorld.ipynb)
 - [MiniWoB](labs/final_project/MiniWoB)
 
 
